@@ -112,6 +112,7 @@ public class ITECafe {
                 int oturi=osiharai-goukei;
                 System.out.println("お釣りは"+oturi+"円です");
                 System.out.println("ご利用ありがとうございました");
+                break;
              }else if(osiharai<=goukei){
                  int tarinai=goukei-osiharai;
                  System.out.println(tarinai+"円足りません");
